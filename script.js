@@ -20,7 +20,6 @@ function calculate() {
 currencyOne.addEventListener("change", calculate);
 amountOne.addEventListener("input", calculate);
 currencyTwo.addEventListener("change", calculate);
-amountTwo.addEventListener("input", calculate);
 
 swap.addEventListener("click", () => {
   const storedValue = currencyOne.value;
